@@ -1,0 +1,86 @@
+/* ===== HEADER ===== */
+.main-header {
+  text-align: center;
+  padding: 15px 20px; /* Slim header */
+  background: linear-gradient(-45deg, #ff7a18, #ffb347, #ff4e50, #f9d423);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+  color: white;
+}
+
+/* Gradient animation */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.title-box {
+  animation: fadeDown 1s ease;
+}
+
+.logo {
+  font-size: 36px; /* Reduced from 48px */
+  font-weight: 900;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.slogan {
+  margin-top: 4px;
+  font-size: 16px;
+  font-style: italic;
+  opacity: 0.95;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+/* ===== HOME PAGE ===== */
+.home-container {
+  text-align: center;
+  padding: 60px 20px;
+  animation: fadeUp 1s ease;
+}
+
+.home-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.home-sub {
+  font-size: 20px;
+  color: #666;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
