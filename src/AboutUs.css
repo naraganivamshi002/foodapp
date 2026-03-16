@@ -1,0 +1,26 @@
+.about-container{
+  max-width:800px;
+  margin:auto;
+  padding:30px;
+  text-align:center;
+}
+
+.about-container h2{
+  color:#ff4d4d;
+  margin-bottom:20px;
+}
+
+.about-container p{
+  font-size:16px;
+  line-height:1.6;
+}
+
+.about-container ul{
+  list-style:none;
+  padding:0;
+}
+
+.about-container li{
+  margin:10px 0;
+  font-size:18px;
+}

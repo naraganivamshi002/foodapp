@@ -1,21 +1,41 @@
-// AboutUs Component
-import React from 'react';
-import './App.css';
+import React from "react";
 
-const AboutUs = () => {
-    return (
-        <div className="aboutus">
-            <h1>About Us</h1>
-            <div className="card-container">
-                <div className="card">
-                    <img src="/images/about-us.jpg" alt="About Us" className="card-image" />
-                    <div className="card-content">
-                        <p>Learn more about our journey and mission to provide the best food experience.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
-};
+function AboutUs() {
+  return (
+    <div className="about-container">
+      <h2>About Madhuram Restaurant 🍽️</h2>
+
+      <p>
+        Welcome to <b>Madhuram Restaurant</b>! We are passionate about delivering
+        delicious and fresh food to your doorstep. Our mission is to make
+        eating enjoyable, convenient, and affordable for everyone.
+      </p>
+
+      <p>
+        At Madhuram Restaurant, we offer a wide variety of foods including
+        Veg, Non-Veg, Desserts, Milk products, and Chocolates. Every item
+        is prepared with love and quality ingredients.
+      </p>
+
+      <p>
+        Our goal is simple: <b>"Love Eating, Love Living"</b>.
+        We believe good food brings happiness to people.
+      </p>
+
+      <h3>Why Choose Us?</h3>
+
+      <ul>
+        <li>🍲 Fresh and tasty food</li>
+        <li>⚡ Fast delivery</li>
+        <li>💰 Affordable prices</li>
+        <li>❤️ Customer satisfaction</li>
+      </ul>
+
+      <p>
+        Thank you for choosing <b>Madhuram Restaurant</b>. Enjoy your meal!
+      </p>
+    </div>
+  );
+}
 
 export default AboutUs;
