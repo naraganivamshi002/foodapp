@@ -1,23 +1,26 @@
-// ContactUs Component
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./ContactUs.css";
 
-const ContactUs = () => {
-    return (
-        <div className="contactus">
-            <h1>Contact Us</h1>
-            <div className="card-container">
-                <div className="card">
-                    <img src="/images/contact-us.jpg" alt="Contact Us" className="card-image" />
-                    <div className="card-content">
-                        <p>We would love to hear from you! Reach out to us at:</p>
-                        <p>Email: contact@foodapp.com</p>
-                        <p>Phone: +123-456-7890</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
-};
+function ContactUs() {
+  return (
+    <div className="contact-container">
+      <h1>Contact Us 📞</h1>
+
+      <p className="contact-text">
+        We would love to hear from you!
+      </p>
+
+      <div className="contact-details">
+        <p>📍 Address: Hyderabad, India</p>
+        <p>📞 Phone: +91 7993946652</p>
+        <p>📧 Email: happyeating@gmail.com</p>
+      </div>
+
+      <p className="thanks">
+        Thank you for visiting <b>Happy Eating 🍽️</b>
+      </p>
+    </div>
+  );
+}
 
 export default ContactUs;
